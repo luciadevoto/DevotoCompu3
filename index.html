@@ -1,46 +1,76 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <meta charset="utf-8"/>
-        <tittle>Lucia Devoto CV</tittle>
-        <link href="estilos.css" rel="stylessheet" type="text/css">
-    </head>
-    <body>
-        <header>
-            <h1>Lucia Devoto</h1>
-            <p>Me encuentro estudiando en la Universidad Nacional de Lanús, en la carrera de Diseño y Comunicación visual. Acutalmente estoy cursando mi cuarto año de la carrera.</p>
-        </header>
-        <nav>
-            <ul>
-                <li>Perfil</li>
-                <li>Idiomas</li>
-                <li>Herramientas</li>
-                <li>Experiencia</li>
-            </ul>
-        </nav>
-        <main>
-            <section>
-                <h2>Perfil</h2>
-                <p>Soy una persona metódica y analitica. Tomo los desafios diarios como una oportunidad para formarme profesionalmente adquiriendo nuevas capacidades de adaptación para desenvolverme en un entorno cambiante donde puedo aportar mi conocimiento relativo al diseño.</p>
-                <h2>Idiomas</h2>
-                <h3>Ingles</h3>
-                <p>Avanzado. First Cerfiticate in English (FCE)</p>
-                <h3>Portugues</h3>
-                <p>Conocimiento práctico.</p>
-                <h2>Herramientas</h2>
-                <p>Manejo de distintos programas de Adobe, como Illustrator, InDesign, Photoshop.</p>
-                <h2>Experiencia</h2>
-                <p>Info de experiencia laboral</p>
-                <article>
-                  <img src="img/mia.jpeg" width="400" height="400" alt="imagen de mia" />
-                </article>
-            </section>
-        </main>
-        <footer>
-            <p>Diseño y Comunicación Visual - Universidad Nacional de Lanus - Computacion 3.</p>
-        </footer>
-        <addres>
-            <p> Email: lu.devoto@hotmail.com - Contacto: 11-2563-3977</p>
-        </addres>
-    </body>
+  <head>
+    <meta charset="utf-8" />
+    <title>Lucia Devoto CV</title>
+    <link href="estilos.css" rel="stylessheet" type="text/css" />
+  </head>
+  <body>
+    <header>
+      <h1>Lucia Devoto</h1>
+      <p>
+        Me encuentro estudiando en la Universidad Nacional de Lanús, en la
+        carrera de Diseño y Comunicación visual. Acutalmente estoy cursando mi
+        cuarto año de la carrera.
+      </p>
+    </header>
+    <nav>
+      <ul>
+        <li>Perfil</li>
+        <li>Idiomas</li>
+        <li>Herramientas</li>
+        <li>Experiencia</li>
+      </ul>
+    </nav>
+    <main>
+      <section>
+        <h2>Perfil</h2>
+        <p>
+          Soy una persona metódica y analitica. Tomo los desafios diarios como
+          una oportunidad para formarme profesionalmente adquiriendo nuevas
+          capacidades de adaptación para desenvolverme en un entorno cambiante
+          donde puedo aportar mi conocimiento relativo al diseño.
+        </p>
+        <h2>Idiomas</h2>
+        <h3>Ingles</h3>
+        <p>Avanzado. First Cerfiticate in English (FCE)</p>
+        <h3>Portugues</h3>
+        <p>Conocimiento práctico.</p>
+        <h2>Herramientas</h2>
+        <!--   Acá quedaría lindo que lo armes en forma de lista, te ejemplifico. En el caso de los idiomas también lo podés agregar
+        <p>
+          Manejo de distintos programas de Adobe, como Illustrator, InDesign,
+          Photoshop.
+        </p> -->
+        <h4>Manejo de programas de Adobe</h4>
+        <ul>
+          <li>Adobe InDesign</li>
+          <li>Adobe Photoshop</li>
+          <!--         y etc 
+ -->
+        </ul>
+        <h2>Experiencia</h2>
+        <p>Info de experiencia laboral</p>
+        <article>
+          <!--             Hermosa tu perrita pero el atributo alt no funciona muy bien. Pensá en una persona que usa una tecnología asistiva como un lector de pantalla, va  a recibir la info "imagen de mía". Quién es mía? si estoy en la página de lucía. Dado que es una imagen decorativa, podés dejar alt="" y el lector de pantalla la va a ignorar
+ -->
+          <img
+            src="img/mia.jpeg"
+            width="400"
+            height="400"
+            alt="imagen de mia"
+          />
+        </article>
+      </section>
+    </main>
+    <footer>
+      <p>
+        Diseño y Comunicación Visual - Universidad Nacional de Lanus -
+        Computacion 3.
+      </p>
+      <!--       Te sumo esto al footer, estaba un poco raro descolgado ahí afuera. Y la tag está mal escrita, es address. No hace falta que además pongas un p adentro así que lo borré
+ -->
+      <address>Email: lu.devoto@hotmail.com - Contacto: 11-2563-3977</address>
+    </footer>
+  </body>
 </html>
