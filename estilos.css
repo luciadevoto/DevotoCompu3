@@ -7,9 +7,12 @@
 main {
     display: flex;
 }
+body {
+    background-color: beige;
+}
 .perfil {
     display: inline-block;
-    background-color: rgb(95, 80, 133);
+    background-color: rgb(128, 94, 115);
     border-top-right-radius: 700px;
     border-bottom-right-radius: 700px;
     border-bottom-left-radius: 0px;
@@ -18,6 +21,7 @@ main {
     padding: 6px 50px;
     height: 120px;
     text-align: center;
+    line-height: 60px;
 }
 .nombre {
     font-family: "DM Serif Display", serif;
@@ -34,10 +38,13 @@ main {
     color: rgb(245, 245, 220);
 }
 .columna-izquierda { 
-    padding: 40px;
-    width: 35%;
+    padding: 30px;
+    width: 250px;
     margin: 0px;
-    background-color: rgb(127, 114, 160);
+    background-color: rgb(128, 94, 115);
+    gap: 30px;
+    display: flex;
+    flex-direction: column;
 }
 .contacto h3 { 
     font-family: "Poppins", sans-serif;
@@ -46,6 +53,9 @@ main {
     font-style: normal;
     text-decoration: underline;
     color: beige;
+    gap: 10px;
+    display:flex;
+    flex-direction:column;
 }
 .contacto ul {
     font-family: "Poppins", sans-serif;
@@ -92,56 +102,60 @@ main {
     color: beige;
 }
 .columna-derecha { 
-    padding: 40px;
-    width: 65%;
+    padding: 20px;
+    width: 500px;
     margin: 0px;
-    text-align: center;
-    background-color:beige
+    text-align:left;
+    background-color:beige;
+    gap: 30px;
+    display: flex;
+    flex-direction: column;
 }
 .Introduccion h3 {
     font-family: "Poppins", sans-serif;
     font-size: 20px;
     font-weight: 600;
     font-style: normal;
-    color: rgb(127, 114, 160);
+    color: rgb(128, 94, 115);
 }
 .Introduccion p {
     font-family: "Poppins", sans-serif;
     font-size: 15px;
     font-weight: 400;
     font-style: normal;
-    color: rgb(127, 114, 160)
+    color: rgb(128, 94, 115);
 }
 .perfil-profesional h3 { 
     font-family: "Poppins", sans-serif;
     font-size: 20px;
     font-weight: 600;
     font-style: normal;
-    color: rgb(127, 114, 160);
+    color: rgb(128, 94, 115);
 }
 .perfil-profesional p {
     font-family: "Poppins", sans-serif;
     font-size: 15px;
     font-weight: 400;
     font-style: normal;
-    color: rgb(127, 114, 160) 
+    color: rgb(128, 94, 115); 
 }
 .experiencia-laboral h3 {
     font-family: "Poppins", sans-serif;
     font-size: 20px;
     font-weight: 600;
     font-style: normal;
-    color: rgb(127, 114, 160);
+    color: rgb(128, 94, 115);
 }
 .experiencia-laboral ul {
     font-family: "Poppins", sans-serif;
     font-size: 15px;
     font-weight: 400;
     font-style: normal;
-    color: rgb(127, 114, 160) 
+    color: rgb(128, 94, 115);
+    list-style: none;
 }
 footer {
-    background-color: rgb(95, 80, 133);
+    background-color: rgb(128, 94, 115);
     height: 50px;
     text-align: center;
 }
