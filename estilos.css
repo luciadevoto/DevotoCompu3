@@ -4,3 +4,83 @@
     margin: 0px;
     padding: 0px;
 }
+.perfil {
+    display: inline-block;
+    background-color: rgb(127, 114, 160);
+    padding: 6px 16px;
+    border-radius: 700px;
+    margin-top: 20px;
+}
+.nombre {
+    font-family: "DM Serif Display", serif;
+    font-size: 60px;
+    font-weight: 400;
+    font-style: normal;
+    color:beige;
+}
+.perfil h2 {
+    font-family: "Poppins", sans-serif;
+    font-size: 20px;
+    font-weight: 300;
+    font-style: normal;
+    color: rgb(245, 245, 220);
+}
+.columna-izquierda { 
+    padding: 40px;
+    width: 25%;
+    background-color: rgb(127, 114, 160);
+}
+.contacto h3 { 
+    font-family: "Poppins", sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    font-style: normal;
+    color: beige;
+}
+.contacto ul {
+    font-family: "Poppins", sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    font-style: normal;
+    color: beige;
+}
+.idiomas h3 {
+    font-family: "Poppins", sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    font-style: normal;
+    color: beige;
+}
+.idiomas ul {
+    font-family: "Poppins", sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    font-style: normal;
+    color: beige;
+}
+.herramientas h3 {
+    font-family: "Poppins", sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    font-style: normal;
+    color: beige;
+}
+.herramientas h4 {
+    font-family: "Poppins", sans-serif;
+    font-size: 15px;
+    font-weight: 600;
+    font-style: normal;
+    color: beige; 
+}
+.herramientas ul {
+    font-family: "Poppins", sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    font-style: normal;
+    color: beige;
+}
+.columna-derecha { 
+    padding: 40px;
+    width: 65%;
+    background-color: aliceblue;
+}
