@@ -46,6 +46,10 @@ body {
     display: flex;
     flex-direction: column;
 }
+.contacto img{
+    padding: 0px;
+    align-items: baseline;
+}
 .contacto h3 { 
     font-family: "Poppins", sans-serif;
     font-size: 20px;
