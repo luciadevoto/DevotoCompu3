@@ -62,12 +62,16 @@ body {
     display:flex;
     flex-direction:column;
 }
-.contacto ul {
+.contacto ul li {
     font-family: "Poppins", sans-serif;
     font-size: 15px;
     font-weight: 400;
     font-style: normal;
     color: beige;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 10px;
 }
 .idiomas h3 {
     font-family: "Poppins", sans-serif;
@@ -77,12 +81,14 @@ body {
     text-decoration: underline;
     color: beige;
 }
-.idiomas ul {
+.idiomas ul li {
     font-family: "Poppins", sans-serif;
     font-size: 15px;
     font-weight: 400;
     font-style: normal;
     color: beige;
+    gap: 10px;
+    margin-bottom: 10px;
 }
 .herramientas h3 {
     font-family: "Poppins", sans-serif;
@@ -99,12 +105,16 @@ body {
     font-style: normal;
     color: beige; 
 }
-.herramientas ul {
+.herramientas ul li {
     font-family: "Poppins", sans-serif;
     font-size: 15px;
     font-weight: 400;
     font-style: normal;
     color: beige;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 10px;
 }
 .columna-derecha { 
     padding: 20px;
