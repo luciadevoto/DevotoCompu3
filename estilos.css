@@ -4,14 +4,12 @@
     margin: 0px;
     padding: 0px;
 }
-/*estilos generales*/
 main {
     display: flex;
 }
 body {
     background-color: beige;
 }
-/*header*/
 .perfil {
     display: inline-block;
     background-color: rgb(128, 94, 115);
