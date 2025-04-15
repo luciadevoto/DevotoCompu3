@@ -4,19 +4,20 @@
     margin: 0px;
     padding: 0px;
 }
-main {
-    display: flex;
-}
 body {
     background-color: beige;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+}
+main {
+    display: flex;
 }
 .perfil {
     display: inline-block;
     background-color: rgb(128, 94, 115);
-    border-top-right-radius: 700px;
-    border-bottom-right-radius: 700px;
-    border-bottom-left-radius: 0px;
-    margin-top: 50px;
+    border-radius: 700px;
+    margin: 40px;
     padding: 6px 50px;
     height: 120px;
     text-align: center;
