@@ -4,8 +4,10 @@
     margin: 0px;
     padding: 0px;
 }
+html{
+    background-color: rgb(247, 240, 244);
+}
 body {
-    background-color: beige;
     display: flex;
     flex-direction: column;
     max-width: 1000px;
@@ -155,7 +157,7 @@ main {
 }
 /*columnas derecha*/ 
 .columna-derecha { 
-    padding: 30px;
+    padding: 20px;
     width: 500px;
     margin: 20px;
     text-align:left;
