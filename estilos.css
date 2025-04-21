@@ -20,6 +20,11 @@ body {
     border-radius: 12px;
 }
 
+header {
+    display: flex;
+    flex-direction: row;
+}
+
 main {
     display: flex;
     justify-content: space-between;
@@ -29,10 +34,7 @@ main {
     padding: 10px;
 }
 
-header {
-    display: flex;
-    flex-direction: row;
-}
+/*encabezado*/ 
 
 .foto-perfil {
     height: 300px;
