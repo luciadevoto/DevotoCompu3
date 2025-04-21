@@ -4,9 +4,11 @@
     margin: 0px;
     padding: 0px;
 }
+
 html{
     background-color: rgb(247, 240, 244);
 }
+
 body {
     display: flex;
     flex-direction: column;
@@ -17,20 +19,27 @@ body {
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
     border-radius: 12px;
 }
+
 main {
     display: flex;
+    justify-content: space-between;
+    gap: 10px;
+    padding: 10px;
     margin: 20 auto;
     padding: 10px;
 }
+
 header {
     display: flex;
     flex-direction: row;
 }
+
 .foto-perfil {
     height: 300px;
     width: auto;
     margin: 10px;
 }
+
 .perfil {
     display: inline-block;
     background-color: rgb(128, 94, 115);
@@ -43,6 +52,7 @@ header {
     line-height: 60px;
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.40);
 }
+
 .nombre {
     font-family: "DM Serif Display", serif;
     font-size: 60px;
@@ -50,6 +60,7 @@ header {
     font-style: normal;
     color:beige;
 }
+
 .perfil h2 {
     font-family: "Poppins", sans-serif;
     font-size: 25px;
@@ -57,8 +68,16 @@ header {
     font-style: normal;
     color: rgb(245, 245, 220);
 }
-/*columnas izquierda*/ 
-.contacto {
+
+/*columna izquierda*/ 
+
+.columna-izquierda {
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+}
+
+.columna-izquierda section {
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.40);
     border-radius: 12px;
     padding: 30px;
@@ -68,7 +87,8 @@ header {
     flex-direction: column;
     gap: 20px;
 }
-.contacto h3 { 
+
+.columna-izquierda h3 {
     font-family: "Poppins", sans-serif;
     font-size: 20px;
     font-weight: 600;
@@ -80,90 +100,36 @@ header {
     flex-direction:column;
     align-items: center;
 }
-.contacto ul li {
-    font-family: "Poppins", sans-serif;
-    font-size: 15px;
-    font-weight: 400;
-    font-style: normal;
-    color: beige;
-    display: flex;
-    align-items: center;
-    gap: 10px;
-    margin-bottom: 10px;
-}
-.idiomas {
-    box-shadow: 0 0 20px rgba(0, 0, 0, 0.40);
-    border-radius: 12px;
-    padding: 30px;
-    margin: 20px;
-    background-color: rgb(128, 94, 115);
-    display: flex;
-    flex-direction: column;
-    gap: 20px;
-}
-.idiomas h3 {
-    font-family: "Poppins", sans-serif;
-    font-size: 20px;
-    font-weight: 600;
-    font-style: normal;
-    border-bottom: 1px beige solid;
-    color: beige;
-    display:flex;
-    flex-direction:column;
-    align-items: center;
-}
-.idiomas ul li {
-    font-family: "Poppins", sans-serif;
-    font-size: 15px;
-    font-weight: 400;
-    font-style: normal;
-    color: beige;
-    gap: 10px;
-    margin-bottom: 10px;
-    list-style: none;
-}
-.herramientas {
-    box-shadow: 0 0 20px rgba(0, 0, 0, 0.40);
-    border-radius: 12px;
-    padding: 30px;
-    margin: 20px;
-    background-color: rgb(128, 94, 115);
-    display: flex;
-    flex-direction: column;
-    gap: 20px;
-}
-.herramientas h3 {
-    font-family: "Poppins", sans-serif;
-    font-size: 20px;
-    font-weight: 600;
-    font-style: normal;
-    border-bottom: 1px beige solid;
-    color: beige;
-    display:flex;
-    flex-direction:column;
-    align-items: center;
-}
-.herramientas h4 {
+
+.columna-izquierda h4 {
     font-family: "Poppins", sans-serif;
     font-size: 15px;
     font-weight: 600;
     font-style: normal;
     color: beige; 
 }
-.herramientas ul li {
+
+.columna-izquierda ul li {
     font-family: "Poppins", sans-serif;
     font-size: 15px;
     font-weight: 400;
     font-style: normal;
     color: beige;
     display: flex;
-    align-items: center;
+    align-items: flex-start;
     gap: 10px;
     margin-bottom: 10px;
 }
-/*columnas derecha*/ 
+
+.idiomas ul li {
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+/*columna derecha*/ 
+
 .columna-derecha { 
-    padding: 20px;
+    padding: 35px 20px 20px 25px;
     width: 500px;
     margin: 20px;
     text-align:left;
@@ -174,14 +140,16 @@ header {
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
     border-radius: 12px;
 }
-.Introduccion h3 {
+
+.columna-derecha h3 {
     font-family: "Poppins", sans-serif;
     font-size: 20px;
     font-weight: 600;
     font-style: normal;
     color: rgb(128, 94, 115);
 }
-.Introduccion p {
+
+.columna-derecha p {
     font-family: "Poppins", sans-serif;
     font-size: 15px;
     font-weight: 400;
@@ -189,28 +157,7 @@ header {
     color: rgb(128, 94, 115);
     margin: 8px;
 }
-.perfil-profesional h3 { 
-    font-family: "Poppins", sans-serif;
-    font-size: 20px;
-    font-weight: 600;
-    font-style: normal;
-    color: rgb(128, 94, 115);
-}
-.perfil-profesional p {
-    font-family: "Poppins", sans-serif;
-    font-size: 15px;
-    font-weight: 400;
-    font-style: normal;
-    color: rgb(128, 94, 115); 
-    margin: 8px;
-}
-.experiencia-laboral h3 {
-    font-family: "Poppins", sans-serif;
-    font-size: 20px;
-    font-weight: 600;
-    font-style: normal;
-    color: rgb(128, 94, 115);
-}
+
 .experiencia-laboral ul {
     font-family: "Poppins", sans-serif;
     font-size: 15px;
@@ -220,22 +167,9 @@ header {
     list-style: none;
     margin: 8px;
 }
-.educación h3 {
-    font-family: "Poppins", sans-serif;
-    font-size: 20px;
-    font-weight: 600;
-    font-style: normal;
-    color: rgb(128, 94, 115);
-}
-.educación p {
-    font-family: "Poppins", sans-serif;
-    font-size: 15px;
-    font-weight: 400;
-    font-style: normal;
-    color: rgb(128, 94, 115);
-    margin: 8px;
-}
+
 /*footer*/ 
+
 footer {
     background-color: rgb(128, 94, 115);
     height: 50px;
@@ -244,6 +178,7 @@ footer {
     border-radius: 12px;
     margin-top: 30px;
 }
+
 footer p {
     font-family: "Poppins", sans-serif;
     font-size: 12px;
