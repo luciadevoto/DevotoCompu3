@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1" viewBox="0 0 22.66 21.86">
+  <defs>
+    <style>
+      .cls-1 {
+        font-size: 15.06px;
+      }
+
+      .cls-1, .cls-2, .cls-3 {
+        fill: #805f74;
+        font-family: DMSans18pt-Bold, 'DM Sans 18pt';
+        font-weight: 700;
+        isolation: isolate;
+      }
+
+      .cls-2 {
+        font-size: 16.96px;
+      }
+
+      .cls-4 {
+        stroke: #f5f6dd;
+        stroke-miterlimit: 10;
+        stroke-width: .5px;
+      }
+
+      .cls-4, .cls-5 {
+        fill: #f5f6dd;
+      }
+
+      .cls-6 {
+        display: none;
+      }
+
+      .cls-3 {
+        font-size: 16.07px;
+      }
+    </style>
+  </defs>
+  <!-- Generator: Adobe Illustrator 28.6.0, SVG Export Plug-In . SVG Version: 1.2.0 Build 709)  -->
+  <g>
+    <g id="Capa_1" class="cls-6">
+      <g>
+        <rect class="cls-5" x=".71" y=".82" width="20" height="20" rx="5.26" ry="5.26"/>
+        <text class="cls-3" transform="translate(3.19 15.95) scale(.89 1)"><tspan x="0" y="0">Ai</tspan></text>
+      </g>
+    </g>
+    <g id="Capa_2" class="cls-6">
+      <g>
+        <rect class="cls-5" x="1.46" y=".93" width="20" height="20" rx="5.26" ry="5.26"/>
+        <text class="cls-1" transform="translate(3.87 15.62) scale(.89 1)"><tspan x="0" y="0">Ps</tspan></text>
+      </g>
+    </g>
+    <g id="Capa_3" class="cls-6">
+      <g>
+        <rect class="cls-5" x="1.08" y=".55" width="20.76" height="20.76" rx="5.46" ry="5.46"/>
+        <text class="cls-2" transform="translate(4.37 16.14) scale(.89 1)"><tspan x="0" y="0">Id</tspan></text>
+      </g>
+    </g>
+    <g id="Capa_4">
+      <g id="ubi">
+        <path class="cls-4" d="M6.51,10.94c1.12,2.21,4.96,8.59,4.96,8.59,0,0,3.84-6.38,4.96-8.59C23.07-2.06-.17-2.23,6.51,10.94ZM11.42,11.65c-2.43,0-4.41-1.98-4.41-4.41s1.98-4.41,4.41-4.41,4.41,1.98,4.41,4.41-1.98,4.41-4.41,4.41Z"/>
+      </g>
+    </g>
+    <g id="Capa_5" class="cls-6">
+      <g>
+        <polygon class="cls-5" points="3.32 4.09 11.94 11.09 20.57 4.09 3.32 4.09"/>
+        <polygon class="cls-5" points="3.04 5.19 3.04 14.48 20.85 14.48 20.85 5.19 11.95 12.29 3.04 5.19"/>
+      </g>
+    </g>
+    <g id="Capa_6" class="cls-6">
+      <g id="telefono">
+        <path class="cls-5" d="M6.87,2.11l2.05,4.9c.27.72-1.33,1.37-1.63,2.39.23,1.83,3.59,5.12,5.78,5.81.46.11,1.74-1.74,2.09-1.67l5.2,2.01C16.77,29.09-7,5.79,6.87,2.11Z"/>
+      </g>
+    </g>
+  </g>
+</svg>
